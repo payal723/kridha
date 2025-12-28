@@ -30,7 +30,6 @@ export async function POST(req) {
       username,
       email,
       password: hashedPass,
-      //  role: isAdmin ? "admin" : "user",
     });
 
     const response = NextResponse.json(
